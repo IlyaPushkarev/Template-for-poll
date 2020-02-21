@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	height: 100vh;
+	width: 100%;
+	background-color: #D8C9D8;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+input{
+	border-radius: 5px;
+	border: 2px solid #260026;
+	outline: none;
+	background-color: #D8C9D8;
+}
+/*Header*/
+nav{
+	padding: 10px 0 10px 10px;
+	margin-bottom: 10px;
+	background-color: #5A0084FF;
+}
+
+.nav-header{
+	color: white;
+}
+
+/*Section*/
+.mainPanel,
+.addPanel {
+	width: 70%;
+	margin: 0 auto;
+	padding: 40px 10px;
+	border-radius: 10px;
+	border: 3px solid #800080;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper{
+	margin-bottom: 20px;
+}
+label{
+	font-size: 18px;
+}
+.mainPanel input,
+.addPanel textarea {
+	margin-left: 10px;
+	width: 50px;
+	padding: 3px 5px ;
+	border-radius: 5px;
+	border: 2px solid #260026;
+	outline: none;
+	background-color: #D8C9D8;
+}
+
+.createBtn {
+	padding: 10px 30px;
+	border: 2px solid #260026;
+	border-radius: 5px;
+	background-color: 	#3b3b71;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.createBtn:hover{
+	transform: scale(1.01);
+	box-shadow: 1px 1px 10px rgba(0,0,0,.4)
+}
+
+/*Add panel*/
+.addPanel{
+	margin-top: 20px;
+	align-items: flex-start;
+}
+
+form,
+.addPanel textarea {
+	width: 100%;
+}
+
+.addPanel textarea {
+	padding: 5px;
+	margin-left:0;
+	resize: none;
+	overflow: hidden;
+
+
+}
+
+.addPanel textarea span,
+.addPanel textarea p,
+.addPanel textarea b{
+	background-color: #D8C9D8 !important;
+}
+
+.addAnswer,
+.createAnswer{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 15px 0 0;
+	text-transform: uppercase;
+	align-self: flex-start;
+	cursor: pointer;
+
+}
+
+.addPanel input {
+	width: 60%;
+	margin-top: 10px;
+	padding: 3px 5px;
+}
+
+.createAnswer{
+	align-self: center;
+}

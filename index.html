@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Template for poll</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mediaQueries.css">
+</head>
+<body>
+
+	<nav>
+		<div class="container">
+			<div class="nav-header">
+				<h1>Easy poll</h1>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<div class="container">
+			<div class="mainPanel">
+				<div class="wrapper">
+					<label>Quantity of questions</label>
+					<input type="text" class="amtQuestions" id="amtQuestions">
+				</div>
+
+				<div class="wrapper">
+					<label>Quantity of answers</label>
+					<input type="text" class="amtAnswers" id="amtAnswers">
+				</div>
+
+				<div class="wrapper">
+					<div class="createBtn" id="createBtn">Create poll</div>
+				</div>
+			</div>
+
+			<div class="addPanel" id="addPanel">
+				<h3>Create question</h3>
+				
+				<form action="post">
+					<label for="question">Question:</label>
+					<textarea class="question" id="question" placeholder="Insert question" rows="1" 
+					></textarea> 
+				</form>
+				
+				<div class="fieldAnswer" id="fieldAnswer"></div>
+				<div class="addAnswer" id="addAnswer">Add answer</div>
+
+				<div class="createAnswer" id="createAnswer">Create</div>
+				
+				<!-- <div class="textarea" contenteditable="true">insert</div> -->
+			</div>
+		</div>
+	</section>
+
+	<script src="main.js"></script>
+</body>
+</html>
