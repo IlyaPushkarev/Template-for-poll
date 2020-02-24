@@ -19,9 +19,9 @@
 		</div>
 	</nav>
 
-	<section>
+	<section id="first">
 		<div class="container">
-			<div class="mainPanel">
+			<div class="mainPanel" id="mainPanel">
 				<div class="wrapper">
 					<label>Quantity of questions</label>
 					<input type="text" class="amtQuestions" id="amtQuestions">
@@ -33,28 +33,13 @@
 				</div>
 
 				<div class="wrapper">
-					<div class="createBtn" id="createBtn">Create poll</div>
+					<div class="createPoll" id="createPoll">Create poll</div>
 				</div>
-			</div>
-
-			<div class="addPanel" id="addPanel">
-				<h3>Create question</h3>
-				
-				<form action="post">
-					<label for="question">Question:</label>
-					<textarea class="question" id="question" placeholder="Insert question" rows="1" 
-					></textarea> 
-				</form>
-				
-				<div class="fieldAnswer" id="fieldAnswer"></div>
-				<div class="addAnswer" id="addAnswer">Add answer</div>
-
-				<div class="createAnswer" id="createAnswer">Create</div>
-				
-				<!-- <div class="textarea" contenteditable="true">insert</div> -->
 			</div>
 		</div>
 	</section>
+
+	
 
 	<script src="main.js"></script>
 </body>
