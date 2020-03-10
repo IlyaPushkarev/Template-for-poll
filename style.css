@@ -10,6 +10,7 @@ body{
 	width: 100%;
 	background-color: #D8C9D8;
 	font-size: 1em;
+	font-family: 'Sen', sans-serif;
 }
 
 .container{
@@ -88,6 +89,7 @@ nav{
 	display: none;
 }
 .addPanel{
+	width: 40%;
 	padding: 20px 10px;
 	/*margin-top: 20px;*/
 	align-items: flex-start;
@@ -155,8 +157,44 @@ form{
 }
 
 /*Preview panel*/
-.priviewPanel{
-	border-radius: 10px;
+.previewPanel{
+	width: 60%;
 	border: 3px solid #800080;
+	border-radius: 10px;
 	margin-left: 5px; 
+	padding: 20px 10px;
+}
+
+.previewPanel h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+ .card{
+	width: 98%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #800080;
+	padding: 10px;
+	font-size: 20px;
+	color: #00002CFF;
+	text-align: justify;
+}
+
+ .card .wrapper-qst{
+	margin-bottom: 30px;
+}
+
+ .card .wrapper-qst span{
+	margin-right: 20px;
+}
+
+ .card  p {
+	display: inline-block;
+	width: 100%;
+    word-wrap: break-word;
+}
+
+.wrapper-answ{
+	display: flex;
+	margin-bottom: 15px;
 }
